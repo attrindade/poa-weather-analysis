@@ -10,6 +10,11 @@ A comparison of the last two decades (2001 - 2021) of weather forecasting data f
   * [Data Extraction](#p-extraction)
   * [Data Preparation & Cleaning](#p-preparation)
     * [Creating a Summarized Table](#p-summarized)
+  * [EDA](#p-eda)
+    * [What about the summer](#p-summer)
+    * [What about the winter](#p-winter) 
+    * [Humidity](#p-humidity)
+    * [Precipitation](#p-precipitation) 
 
 ## Installation <a name="Installation"></a>
 
@@ -114,11 +119,11 @@ In this second part of data cleaning/preparation we will summarize all the data 
 * SUM/WIN_hum_min --> The lowest humidity of that summer/winter
 
 
-### EDA (Exploratory Data Analysis)
+### EDA (Exploratory Data Analysis) <a name="p-eda"></a>
 
 In this phase I try to answer a few questions about many topics related to this sensorial feeling that Porto Alegre is getting hotter.
 
-#### What about the summer?
+#### What about the summer? <a name="p-summer"></a>
 
 Questions to answer:
 
@@ -139,12 +144,20 @@ As we can see in the plot above, the year's summer temperature average is increa
 
 This analysis reinforce the idea that Porto Alegre's summers are getting hotter. My perception that our summers are being hotter seems to be in line with data.
 
-<table border="1" class="dataframe"> <thead> <tr style="undefined:undefined"> <th></th> <th>Average temperatures</th> <th>Average of year's highest temperatures</th> <th>Average of daily maximum temperatures</th> <th>Average of year's lowest temperatures</th> <th>Average of daily minimum temperatures</th> </tr> </thead> <tbody> <tr> <th>2001 - 2007</th> <td>24.68</td> <td>37.9</td> <td>30.56</td> <td>14.9</td> <td>20.58</td> </tr> <tr> <th>2008 - 2014</th> <td>23.66</td> <td>35.3</td> <td>29.16</td> <td>13.9</td> <td>19.82</td> </tr> <tr> <th>2015 - 2021</th> <td>25.07</td> <td>38.9</td> <td>30.73</td> <td>16.9</td> <td>21.17</td> </tr> </tbody></table>
+<table border="1" class="dataframe"> <thead> <tr style="undefined:undefined"> <th></th> <th>Average temperatures</th> <th>Average of year's highest temperatures</th> <th>Average of daily maximum temperatures</th> <th>Average of year's lowest temperatures</th> <th>Average of daily minimum temperatures</th> </tr> </thead> <tbody> <tr> <th>2001 - 2007</th> <td>24.62</td> <td>37.56</td> <td>30.50</td> <td>14.81</td> <td>20.43</td> </tr> <tr> <th>2008 - 2014</th> <td>24.64</td> <td>37.79</td> <td>30.39</td> <td>14.66</td> <td>20.75</td> </tr> <tr> <th>2015 - 2021</th> <td>25.02</td> <td>38.77</td> <td>31.11</td> <td>15.57</td> <td>20.90</td> </tr> </tbody></table>
 
-With the plots that I showed before and with this table that shows the mean of many variables of the city summers I can confirm to myself that at least my perception is true: Porto Alegre is having higher temperatures and higher averages during these last 7 years.
+With the plots that I showed before and with this table that shows the mean of many variables of the city summers I feel confident to say that my perceptions are at least coherent with the data: Porto Alegre is having higher temperatures and higher averages during these last 7 years, but it's not a huge difference.
 
-In this last table we can perceiva that the averages oscilate trough the years, but in the year to year comparison the last years seeems to have a slightly hotter weather. We can't confirm with certainty that my perception is related to any real changes in the city's climate, but it certainly goes in the same direction that some studies already found (I will link an interesting one below), the climate change is starting to be noticeable by people who live in the city.
+We can't confirm with certainty that my perception is related to any real changes in the city's climate, but it certainly goes in the same direction that some studies already found (I will link an interesting one below), the climate change is starting to be noticeable by people who live in the city.
 
-https://www.ufrgs.br/sextante/mudanca-climatica-no-rio-grande-do-sul/
+[Climate change in Rio Grande do Sul, by Bibiana Dávila at UFRGS](https://www.ufrgs.br/sextante/mudanca-climatica-no-rio-grande-do-sul/)
 
-It's interesting to notice that summer's average of max temperatures is quite similar between the beggining of the first decade and the end of the second decade. But also interesting to notice that the data about the minimum temperatures seems to be getting a little higher even though they also seems to be quite oscilating.
+#### What about the winter <a name="p-winter"></a>
+
+Questions to answer:
+
+- Did the mean temperature increased?
+- Did the minimum temperature average increased?
+
+To answer these questions my strategy was to plot the data from the winter's data in the summarised dataframe.
+![download](https://user-images.githubusercontent.com/6825324/169619016-71320bed-9a92-4a2b-b3a7-523faedad282.png)
