@@ -193,6 +193,8 @@ Questions to answer:
 
 <table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>Sum of precipitation (mm)</th> </tr> </thead> <tbody> <tr> <th>2001 - 2007</th> <td>7532.4</td> </tr> <tr> <th>2008 - 2014</th> <td>10567.8</td> </tr> <tr> <th>2015 - 2021</th> <td>10809.8</td> </tr> </tbody></table>
 
+<table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>Sum of precipitation (mm)</th> </tr> </thead> <tbody> <tr> <th>2001 - 2010</th> <td>12258.6</td> </tr> <tr> <th>2011 - 2020</th> <td>15431.4</td> </tr> <tr> <th>2021 - 2021</th> <td>1220.0</td> </tr> </tbody></table>
+
 In this last table we are able to see that we having considerable more rain in this last decade of 2011 to 2020. Being specific: the difference between 2001-2010 sum and the 2011-2020 sum is 3172.8mm more precipitation for the latter.
 
 This tendency towards a higher amount of precipitation is something expected in the climate change context of the state we are in. Rio Grande do Sul suffers from the climate changes that are being made trough the amazon forest deforestation, in more than one way it intensifies the precipitations on our region.
