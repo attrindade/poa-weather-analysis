@@ -1,4 +1,4 @@
-# Comparing Porto Alegre's weather data from the last two decades
+# Comparing Porto Alegre's weather data from two decades
 
 A comparison of the last two decades (2001 - 2021) of weather forecasting data from Porto Alegre.
 
@@ -14,7 +14,8 @@ A comparison of the last two decades (2001 - 2021) of weather forecasting data f
     * [What about the summer](#p-summer)
     * [What about the winter](#p-winter) 
     * [Humidity](#p-humidity)
-    * [Precipitation](#p-precipitation) 
+    * [Precipitation](#p-precipitation)
+* [What's next?](#next)
 
 ## Installation <a name="Installation"></a>
 
@@ -144,7 +145,7 @@ As we can see in the plot above, the year's summer temperature average is increa
 
 This analysis reinforce the idea that Porto Alegre's summers are getting hotter. My perception that our summers are being hotter seems to be in line with data.
 
-<table border="1" class="dataframe"> <thead> <tr style="undefined:undefined"> <th></th> <th>Average temperatures</th> <th>Average of year's highest temperatures</th> <th>Average of daily maximum temperatures</th> <th>Average of year's lowest temperatures</th> <th>Average of daily minimum temperatures</th> </tr> </thead> <tbody> <tr> <th>2001 - 2007</th> <td>24.62</td> <td>37.56</td> <td>30.50</td> <td>14.81</td> <td>20.43</td> </tr> <tr> <th>2008 - 2014</th> <td>24.64</td> <td>37.79</td> <td>30.39</td> <td>14.66</td> <td>20.75</td> </tr> <tr> <th>2015 - 2021</th> <td>25.02</td> <td>38.77</td> <td>31.11</td> <td>15.57</td> <td>20.90</td> </tr> </tbody></table>
+<table border="1" class="dataframe"> <thead> <tr style="undefined:undefined"> <th></th> <th>Summer's avg temperatures</th> <th>Avg of highest summer temp</th> <th>Avg of daily summer max temps</th> <th>Avg of lowest summer temps</th> <th>Average of daily summer min temps</th> </tr> </thead> <tbody> <tr> <th>2001 - 2007</th> <td>24.62</td> <td>37.56</td> <td>30.50</td> <td>14.81</td> <td>20.43</td> </tr> <tr> <th>2008 - 2014</th> <td>24.64</td> <td>37.79</td> <td>30.39</td> <td>14.66</td> <td>20.75</td> </tr> <tr> <th>2015 - 2021</th> <td>25.02</td> <td>38.77</td> <td>31.11</td> <td>15.57</td> <td>20.90</td> </tr> </tbody></table>
 
 With the plots that I showed before and with this table that shows the mean of many variables of the city summers I feel confident to say that my perceptions are at least coherent with the data: Porto Alegre is having higher temperatures and higher averages during these last 7 years, but it's not a huge difference.
 
@@ -161,3 +162,43 @@ Questions to answer:
 
 To answer these questions my strategy was to plot the data from the winter's data in the summarised dataframe.
 ![download](https://user-images.githubusercontent.com/6825324/169619016-71320bed-9a92-4a2b-b3a7-523faedad282.png)
+
+<table class="dataframe" border="1"> <thead> <tr style="text-align: right;"> <th></th> <th>Winter's avg temperatures</th> <th>Avg of higuest winter temp</th> <th>Avg of daily winter max temps</th> <th>Avg of lowest winter temps</th> <th>Average of daily winter min temps</th> </tr> </thead> <tbody> <tr> <th>2001 - 2007</th> <td>15.73</td> <td>33.31</td> <td>20.92</td> <td>2.64</td> <td>11.86</td> </tr> <tr> <th>2008 - 2014</th> <td>15.22</td> <td>33.27</td> <td>20.42</td> <td>1.91</td> <td>11.49</td> </tr> <tr> <th>2015 - 2021</th> <td>15.93</td> <td>33.90</td> <td>21.35</td> <td>3.59</td> <td>12.20</td> </tr> </tbody></table>
+
+With the winter we can see a similar pattern to the one that our summer is following: average temperatues, maximum and minimum variables are all (somewhat) increasing. All the variables had some increase, but the maximum averages and the two minimum variables (average and lowest temperature) had highest increase.
+
+The average temperatures are getting higher and all the other metrics too. Answering our questions: Yes, the mean temperature average suffered an increase and the miniminum temperatures (and averages) suffered too.
+
+Again, the residents of POA can feel a difference and this difference can be felt by our sensations.
+
+
+#### Humidity <a name="p-humidity"></a>
+
+Questions to answer:
+
+- Did the humidity averages suffered any changes along these years? 
+- Does it follows the changes of other variables?
+
+<table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>Avg humidity along years</th> <th>Avg min humidity along years</th> </tr> </thead> <tbody> <tr> <th>2001 - 2007</th> <td>74.09</td> <td>51.16</td> </tr> <tr> <th>2008 - 2014</th> <td>75.47</td> <td>52.34</td> </tr> <tr> <th>2015 - 2021</th> <td>77.85</td> <td>54.83</td> </tr> </tbody></table>
+
+The average humidity and minimum humidity mantained themselves in a similar averages along these 20 years although they seem to be increasing too. I'm no specialist, so I can't affirm anything, even if there's a small increase on it. It can be only a common difference or something else, only a little bit of more research from my part can understand it further. 
+
+Answering the questions: they seems to be increasing although it's a subtle difference. As all the other variables seems to be increasing too I can say that this change is following the changes of other metrics
+
+#### Precipitation <a name="p-precipitation"></a>
+
+Questions to answer:
+
+- Did the precipitations sums had been trough some change along the years?
+
+<table border="1" class="dataframe"> <thead> <tr style="text-align: right;"> <th></th> <th>Sum of precipitation (mm)</th> </tr> </thead> <tbody> <tr> <th>2001 - 2007</th> <td>7532.4</td> </tr> <tr> <th>2008 - 2014</th> <td>10567.8</td> </tr> <tr> <th>2015 - 2021</th> <td>10809.8</td> </tr> </tbody></table>
+
+In this last table we are able to see that we having considerable more rain in this last decade of 2011 to 2020. Being specific: the difference between 2001-2010 sum and the 2011-2020 sum is 3172.8mm more precipitation for the latter.
+
+This tendency towards a higher amount of precipitation is something expected in the climate change context of the state we are in. Rio Grande do Sul suffers from the climate changes that are being made trough the amazon forest deforestation, in more than one way it intensifies the precipitations on our region.
+
+## What's next? <a name="next"></a>
+
+After this EDA I'm planning to explore other parts of this data (like thermal amplitude) and if I can get more data (other years) I will thing about doing some forecasting.
+
+This will only happen in the future, so see you next time!
