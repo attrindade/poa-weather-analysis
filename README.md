@@ -1,4 +1,4 @@
-![POA Weather Comparation](poaweather_banner.png)
+![POA Weather Comparation](banner.png)
 
 # Comparing POA weather data from two decades
 
