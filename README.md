@@ -1,6 +1,8 @@
-# Comparing Porto Alegre's weather data from two decades
+![POA Weather Comparation](poaweather_banner.png)
 
-A comparison of the last two decades (2001 - 2021) of weather forecasting data from Porto Alegre.
+# Comparing POA weather data from two decades
+
+A comparison of the last two decades (2001 - 2021) of weather forecasting data from Porto Alegre, Rio Grande do Sul, Brazil.
 
 ## Table of Contents
 * [Installation](#Installation)
