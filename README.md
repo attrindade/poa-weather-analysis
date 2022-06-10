@@ -1,4 +1,4 @@
-![POA Weather Comparation](banner.png)
+![POA Weather Analysis](banner_analysis.png)
 
 # Comparing POA weather data from two decades
 
@@ -203,6 +203,8 @@ This tendency towards a higher amount of precipitation is something expected in 
 
 ## What's next? <a name="next"></a>
 
-After this EDA I'm planning to explore other parts of this data (like thermal amplitude) and if I can get more data (other years) I will thing about doing some forecasting.
+The medium's article for this project can be found [in this repository](https://medium.com/@attrindade). If you want to contact me or there's any question about the analysis, feel free to reach me on https://www.linkedin.com/in/attrindade/.
+
+After this EDA I'm planning to explore other parts of this data (like thermal amplitude) and if I can get more data (other years) I will think about doing some forecasting.
 
 This will only happen in the future, so see you next time!
